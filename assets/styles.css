@@ -1,0 +1,79 @@
+html,
+body,
+li,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+body{
+    font-family: "Tahoma";
+    font-size: 16px;
+}
+
+h1{
+    font-size: 30px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 1em;
+}
+
+.item{
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #979797;
+    display: inline-flex;
+    flex-direction: column;
+}
+.item li{
+    display: block;
+    padding: 12px 0;
+    font-size: 18px;
+    position: relative;
+    border-top: 1px solid #b7b7b7;
+    display: flex;
+    align-items: center;
+}
+
+.item li:hover{
+    background-color: #ebffe8;
+}
+
+.item li:before{
+    content: attr(data-index);
+    width: 30px;
+}
+
+.item li a{
+    text-decoration: none;
+    color: rgb(133, 0, 0);
+}
+
+.item li a:hover{
+    text-decoration: underline;
+    color: rgb(133, 0, 0);
+}
+
+.item li > *{
+    display: inline-block;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+.item li .first{
+    flex-grow: 1;
+}
+.item li img{
+    height: 100px;
+    width: auto;
+}
