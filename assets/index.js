@@ -281,12 +281,17 @@ document.addEventListener('DOMContentLoaded', function(){
         'shkola7',
     ]
 
-    let name_09_2 = "8.3.  Рандом";
-    let dir_09_2 = "09_random";
-    let format_09_2 = "jpg";
+    let name_09_2 = "3. Постеры на минималках";
+    let dir_09_2 = "07_postery_na_minimalkah";
+    let format_09_2 = "png";
     let arr_09_2 = [
-        'tyan',
-        'dyuma',
+        'odin_doma',
+        'leon',
+        'nachalo',
+        'kryostnyj_otec',
+        'titanik',
+        'forrest_gamp',
+        'malysh_na_drajve',
     ]
 
     let list01 = { name: name_01, dir: dir_01, format: format_01, arr: arr_01, video: format_02, }
@@ -316,8 +321,8 @@ document.addEventListener('DOMContentLoaded', function(){
     // let list09 = { name: name_09, dir: dir_09, format: format_09, arr: arr_09, audio: 'mp3', }
     // list(list09);
 
-    // let list09_2 = { name: name_09_2, dir: dir_09_2, format: format_09_2, arr: arr_09_2, img: 'jpg',}
-    // list(list09_2);
+    let list09_2 = { name: name_09_2, dir: dir_09_2, format: format_09_2, arr: arr_09_2, img: 'png',}
+    list(list09_2);
 
     copy('.copy');
 
