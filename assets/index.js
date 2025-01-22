@@ -294,6 +294,19 @@ document.addEventListener('DOMContentLoaded', function(){
         'malysh_na_drajve',
     ]
 
+    let name_09_22 = "4. Произведения";
+    let dir_09_22 = "08_proizvedeniya";
+    let format_09_22 = "png";
+    let arr_09_22 = [
+        'alisa_v_strane_chudes',
+        'belyj_bim_chyornoe_uho',
+        'vojna_i_mir',
+        'malenkij_princ',
+        'mobi_dik',
+        'mumu',
+        'prestuplenie_i_nakazanie',
+    ]
+
     let list01 = { name: name_01, dir: dir_01, format: format_01, arr: arr_01, video: format_02, }
     list(list01);
 
@@ -323,6 +336,9 @@ document.addEventListener('DOMContentLoaded', function(){
 
     let list09_2 = { name: name_09_2, dir: dir_09_2, format: format_09_2, arr: arr_09_2, img: 'jpg',}
     list(list09_2);
+
+    let list09_22 = { name: name_09_22, dir: dir_09_22, format: format_09_22, arr: arr_09_22, img: 'png',}
+    list(list09_22);
 
     copy('.copy');
 
