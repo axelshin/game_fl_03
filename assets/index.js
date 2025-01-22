@@ -126,33 +126,17 @@ document.addEventListener('DOMContentLoaded', function(){
         'borodinskoe_srazhenie',
     ]
 
-    let name_02 = "2. Реплики";
-    let dir_02 = "02_repliki";
+    let name_02 = "2. Каверы от животных";
+    let dir_02 = "06_animals";
     let format_02 = "mp4";
     let arr_02 = [
-        'aeroplan',
-        'zelenaya_kniga',
-        'temniy_ricar',
-        'ochen_strashnoe_kino',
-        'vremya',
-        'doroga_peremen',
-        'tor3',
-
-        'jentelmeni',
-        'leon',
-        'dyavol_nosit_prada',
-        'shoushenka',
-        'besslavnie_ublyudki',
-        'zaponoposlushniy_grajdanin',
-        'mi_milleri',
-        
-        'krokodil_dandi',
-        'matrica',
-        'prividenie',
-        'ukroshenie_stroptivogo',
-        'kriminalnoe_chtivo',
-        'orujeyniy_baron',
-        'krasnaya_jara',
+        'aqua_barbie_girl',
+        'gorillaz_clint_eastwood',
+        'shakira',
+        'imagine_dragons_believer',
+        'queen_we_are_the_champions',
+        'ramstein_du_hast',
+        'diskoteka_avariya_novogodnyaya',
     ]
 
     let name_03 = "3. Нейросеть";
@@ -308,8 +292,8 @@ document.addEventListener('DOMContentLoaded', function(){
     let list01 = { name: name_01, dir: dir_01, format: format_01, arr: arr_01, video: format_02, }
     list(list01);
 
-    // let list02 = { name: name_02, dir: dir_02, format: format_02, arr: arr_02, audio: 'mp3', video: format_02, }
-    // list(list02);
+    let list02 = { name: name_02, dir: dir_02, format: format_02, arr: arr_02, video: format_02, }
+    list(list02);
 
     // let list03 = { name: name_03, dir: dir_03, format: format_03, arr: arr_03, img: 'jpg',}
     // list(list03);
