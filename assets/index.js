@@ -99,24 +99,31 @@ document.addEventListener('DOMContentLoaded', function(){
     }
 
     /*  */
-    let name_01 = "1. Каверы от Лепса";
-    let dir_01 = "01_covers_from_leps";
-    let format_01 = "mp3";
+    let name_01 = "1. Высокоинтеллектуальные вопросы";
+    let dir_01 = "01_vysokointellektualnye_voprosy";
+    let format_01 = "mp4";
     let arr_01 = [
-        'pugacheva',
-        'kirkorov',
-        'parallelnie_meladze',
-        'kolshik_krug',
-        'na_zare_gazmanov',
-        'talkov',
-        'koni_priveredlivie_visotskiy',
-        'kapitan_arktika_velvet',
-        'malikov',
-        'bi2',
-        'serov',
-        'aeroporti_presnyakov_agutin',        
-        'rotaru',
-        'ne_molchi_bilan',
+        'odekolon',
+        'nil',
+        '1861',
+        'mikelandzhelo',
+        'nadezhda',
+        'aristotel',
+        'oves',
+        'otkrytki',
+        'sokrat',
+        'angliya_i_franciya',
+        'che_gevara',
+        'dzhek_potroshitel',
+        'ehvrika',
+        'romanovy',
+        'konstantinopol',
+        'operaciya_barbarossa',
+        'skarabej',
+        'vavilon',
+        '314',
+        'kolobok',
+        'borodinskoe_srazhenie',
     ]
 
     let name_02 = "2. Реплики";
@@ -298,35 +305,35 @@ document.addEventListener('DOMContentLoaded', function(){
         'dyuma',
     ]
 
-    let list01 = { name: name_01, dir: dir_01, format: format_01, arr: arr_01, audio: 'mp3', }
+    let list01 = { name: name_01, dir: dir_01, format: format_01, arr: arr_01, video: format_02, }
     list(list01);
 
-    let list02 = { name: name_02, dir: dir_02, format: format_02, arr: arr_02, audio: 'mp3', video: format_02, }
-    list(list02);
+    // let list02 = { name: name_02, dir: dir_02, format: format_02, arr: arr_02, audio: 'mp3', video: format_02, }
+    // list(list02);
 
-    let list03 = { name: name_03, dir: dir_03, format: format_03, arr: arr_03, img: 'jpg',}
-    list(list03);
+    // let list03 = { name: name_03, dir: dir_03, format: format_03, arr: arr_03, img: 'jpg',}
+    // list(list03);
 
-    let list04 = { name: name_04, dir: dir_04, format: format_04, arr: arr_04, audio: 'mp3', }
-    list(list04);
+    // let list04 = { name: name_04, dir: dir_04, format: format_04, arr: arr_04, audio: 'mp3', }
+    // list(list04);
 
-    let list05 = { name: name_05, dir: dir_05, format: format_05, arr: arr_05, audio: 'mp3', }
-    list(list05);
+    // let list05 = { name: name_05, dir: dir_05, format: format_05, arr: arr_05, audio: 'mp3', }
+    // list(list05);
 
-    let list06 = { name: name_06, dir: dir_06, format: format_06, arr: arr_06, audio: 'mp3', }
-    list(list06);
+    // let list06 = { name: name_06, dir: dir_06, format: format_06, arr: arr_06, audio: 'mp3', }
+    // list(list06);
 
-    let list07 = { name: name_07, dir: dir_07, format: format_07, arr: arr_07, video: format_07, videoAnswer : true,}
-    list(list07);
+    // let list07 = { name: name_07, dir: dir_07, format: format_07, arr: arr_07, video: format_07, videoAnswer : true,}
+    // list(list07);
 
-    let list08 = { name: name_08, dir: dir_08, format: format_08, arr: arr_08, audio: 'mp3', }
-    list(list08);
+    // let list08 = { name: name_08, dir: dir_08, format: format_08, arr: arr_08, audio: 'mp3', }
+    // list(list08);
 
-    let list09 = { name: name_09, dir: dir_09, format: format_09, arr: arr_09, audio: 'mp3', }
-    list(list09);
+    // let list09 = { name: name_09, dir: dir_09, format: format_09, arr: arr_09, audio: 'mp3', }
+    // list(list09);
 
-    let list09_2 = { name: name_09_2, dir: dir_09_2, format: format_09_2, arr: arr_09_2, img: 'jpg',}
-    list(list09_2);
+    // let list09_2 = { name: name_09_2, dir: dir_09_2, format: format_09_2, arr: arr_09_2, img: 'jpg',}
+    // list(list09_2);
 
     copy('.copy');
 
