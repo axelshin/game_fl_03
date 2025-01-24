@@ -139,47 +139,27 @@ document.addEventListener('DOMContentLoaded', function(){
         'diskoteka_avariya_novogodnyaya',
     ]
 
-    let name_03 = "3. Нейросеть";
-    let dir_03 = "03_network";
-    let format_03 = "jpg";
+    let name_03 = "5. Каверы";
+    let dir_03 = "02_cover";
+    let format_03 = "mp4";
     let arr_03 = [
-        'morda_kirpichom',
-        'alenushka_i_bratec_ivanushka',
-        'lepit_gorbatogo',
-        'sup_s_kotom',
-        'ni_ryba_ni_myaso',
-        'ceny_kusayutsya',
-        'bezhat_vperedi_parovoza',
+        'zima_v_serdce',
+        'ty_ne_ver_slezam',
+        'rozovyj_vecher',
+        'ajsberg',
+        'mnogotochie',
+        'ya_znayu_ty_daleko',
+        'kak_mne_byt',
 
-        'i_hochetsya_i_koletsya',
-        'vynos_mozga',
-        'volshebnik_v_golubom_vertolete',
-        'les_ruk',
-        'ofisnyj_plankton',
-        'glaza_razbegayutsya',
-        'moloko_ubezhalo',
-
-        'podlozhit_svinyu',
-        'brovki_domikom',
-        'stroit_glazki',
-        'carica_skazka_o_care_saltane',
-        'kak_belka_v_kolese',
-        'zolotye_ruki',
-        'zhaba_dushit',
+        'lyublyu',
+        'a_na_more_belyj_pesok',
+        'belaya_noch',
+        'pesnya_obo_mne',
+        'believe',
+        'halo',
+        'hochesh',        
     ]
 
-    let name_04 = "4. Игры";
-    let dir_04 = "04_games";
-    let format_04 = "mp3";
-    let arr_04 = [
-        'mario',
-        'tetris',
-        'nfs',
-        'skyrim',
-        'robocop',
-        'prekrasnoe_dalyoko',
-        'ori',
-    ]
 
     let name_05 = "5. OST Фильмы/сериалы";
     let dir_05 = "05_ost";
@@ -231,17 +211,25 @@ document.addEventListener('DOMContentLoaded', function(){
         'mrazish_video',
     ]
 
-    let name_07 = "7. Музыкальный плагиат";
-    let dir_07 = "07_plagiat";
+    let name_07 = "5. Каверы";
+    let dir_07 = "02_cover";
     let format_07 = "mp4";
     let arr_07 = [
-        'a_u_reki_1',
-        'moscow_1',
-        'malinki_1',
-        'quest_pistols_1',
-        'eros_1',
-        'faded_1',
-        'kuzmin_1',
+        'zima_v_serdce_1',
+        'ty_ne_ver_slezam_1',
+        'rozovyj_vecher_1',
+        'ajsberg_1',
+        'mnogotochie_1',
+        'ya_znayu_ty_daleko_1',
+        'kak_mne_byt_1',
+
+        'lyublyu_1',
+        'a_na_more_belyj_pesok_1',
+        'belaya_noch_1',
+        'pesnya_obo_mne_1',
+        'believe_1',
+        'halo_1',
+        'hochesh_1',
     ]
 
     let name_08 = "8. Советское кино (м)";
@@ -307,15 +295,77 @@ document.addEventListener('DOMContentLoaded', function(){
         'prestuplenie_i_nakazanie',
     ]
 
+
+    let name_04 = "6. Soundrtack";
+    let dir_04 = "03_soundrtack";
+    let format_04 = "mp3";
+    let arr_04 = [
+        'on_drakon',
+        'moana',
+        'angel',
+        'zveropolis',
+        'zvezdnye_voiny',
+        'shrek',
+        'papashi',
+
+        'specnaz',
+        'master_i_margarita',
+        'ubit_bila',
+        'korol_lev',
+        'dnevnik_bridzhit_dzhons',
+        'roki',
+        'zakusochnaya_na_kolesah',
+    ]
+
+    let name_051 = "7. Знакомое, но кто пел?";
+    let dir_051 = "04_znakomoe_no_kto_pel";
+    let format_051 = "mp3";
+    let arr_051 = [
+        'rok_ostrova',
+        'pronofilmy',
+        'vasya_oblomov',
+        'te100steron',
+        'goryachij_shokolad',
+        'ehlvira',
+        'oksana_pochepa_akula',
+
+        'smyslovye_gallyucinacii',
+        'rem',
+        'mattafix',
+        'rozhdestvo',
+        'ajdamir_mugu',
+        'bozhya_korovka',
+        'oskar',
+
+        'matrang',
+        'turbomoda',
+        'nelly',
+        'mariya_rzhevskaya',
+        'alena_vysotskaya',
+        'mika_nyuton',
+        'dj_piligrim',
+    ]
+
+    let name_052 = "8. Игры";
+    let dir_052 = "09_games";
+    let format_052 = "mp3";
+    let arr_052 = [
+        'street_of_rage',
+        'sonic',
+        'dzhim_chervyak',
+        'kontra',
+        'comix_zone',
+        'rock_n_roll_racing',
+        'studzianki',
+    ]
+
     let list01 = { name: name_01, dir: dir_01, format: format_01, arr: arr_01, video: format_02, }
     list(list01);
 
     let list02 = { name: name_02, dir: dir_02, format: format_02, arr: arr_02, video: format_02, }
     list(list02);
 
-    // let list03 = { name: name_03, dir: dir_03, format: format_03, arr: arr_03, img: 'jpg',}
-    // list(list03);
-
+    
     // let list04 = { name: name_04, dir: dir_04, format: format_04, arr: arr_04, audio: 'mp3', }
     // list(list04);
 
@@ -339,6 +389,19 @@ document.addEventListener('DOMContentLoaded', function(){
 
     let list09_22 = { name: name_09_22, dir: dir_09_22, format: format_09_22, arr: arr_09_22, img: 'png',}
     list(list09_22);
+
+    let list07 = { name: name_07, dir: dir_07, format: format_07, arr: arr_07, video: format_07, videoAnswer : true,}
+    list(list07);
+
+    let list04 = { name: name_04, dir: dir_04, format: format_04, arr: arr_04, audio: 'mp3', }
+    list(list04);
+
+    let list051 = { name: name_051, dir: dir_051, format: format_051, arr: arr_051, audio: 'mp3', }
+    list(list051);
+
+    let list052 = { name: name_052, dir: dir_052, format: format_052, arr: arr_052, audio: 'mp3', }
+    list(list052);
+
 
     copy('.copy');
 
